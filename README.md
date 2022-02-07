@@ -58,6 +58,13 @@ Overall, `pycol` characterises class overlap as a heterogeneous concept, compris
 * **Purity**
 * **Neighbourhood Separability**
 
+
+For more information regarding the specified complexity measures, please refer to the following paper:
+
+[Santos, M. S., Abreu, P. H., Japkowicz, N., Fernández, A., Soares, C., Wilk, S., & Santos, J. (2022). On the joint-effect of Class Imbalance and Overlap: A Critical Review, accepted for publication in Artificial Intelligence Review.](https://miriamspsantos.github.io/pdf-files/AIRE_2022.pdf).
+
+If you would like to **use the images** provided in the paper to illustrate your own manuscript, report, blog, or presentation, [they are available here](https://github.com/miriamspsantos/pycol/tree/doc/img).
+
 ## Usage Example:
 
 The `dataset` folder contains some datasets with binary and multi-class problems. All datasets are numerical and have no missing values. The `complexity.py` module implements the complexity measures.
@@ -93,6 +100,13 @@ print(complexity.purity())
 
 ## Developer notes:
 To submit bugs and feature requests, report at [project issues](https://github.com/DiogoApostolo/pycol/issues).
+
+## Citation Request:
+If you plan to use this library, please consider referring to the following paper:
+
+[Santos, M. S., Abreu, P. H., Japkowicz, N., Fernández, A., Soares, C., Wilk, S., & Santos, J. (2022). On the joint-effect of Class Imbalance and Overlap: A Critical Review, accepted for publication in Artificial Intelligence Review.](https://miriamspsantos.github.io/pdf-files/AIRE_2022.pdf).
+
+If you would like to **use the images** provided in the paper to illustrate your own manuscript, report, blog, or presentation, [they are available here](https://github.com/miriamspsantos/pycol/tree/doc/img).
 
 ## Licence:
 The project is licensed under the MIT License - see the [License](https://github.com/DiogoApostolo/pycol/blob/main/LICENCE) file for details.
